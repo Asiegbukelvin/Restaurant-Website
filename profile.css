@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./blur\ image.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.image img {
+  position: absolute;
+  left: 3px;
+  bottom: 33rem;
+ width: 180px;
+ }
+
+
+
+/* Style for the navbar */
+.navbar {
+  position: fixed; /* Fixed position */
+  top: 0;
+  left: 0;
+  height: 100%; /* Full height of the viewport */
+  width: 180px; /* Fixed width */
+  background-color: #0c0c0c; /* Background color */
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+
+}
+
+.sidebar {
+ background-color: #fff;
+ position: absolute; /* Fixed position */
+ top: 9rem;
+ left: 63px;
+ height: 32rem; /* Full height of the viewport */
+ width: 50px; 
+ border-radius: 20px;
+}
+
+.navbar ul {
+  position: absolute;
+  top: 2rem;
+  right: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 79px;
+   color: #0e0d0d; /* Text color */
+   font-size: 20px;
+}
+
+.navbar ul a {
+  color: #000000;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #4e4d4d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.profile {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="checkbox"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  input[type="checkbox"],
+  button {
+      width: calc(100% - 20px);
+  }
+}

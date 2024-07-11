@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  background-image: url('blur\ image.jpeg'); 
+  background-size: cover;
+}
+
+.image img {
+  position: absolute;
+  left: 3px;
+  bottom: 33rem;
+ width: 180px;
+ }
+
+
+
+.container {
+  
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #c62828;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-footer a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+  color: #333;
+}
+
+.form-footer span {
+  margin: 0 5px;
+  color: #666;
+}
