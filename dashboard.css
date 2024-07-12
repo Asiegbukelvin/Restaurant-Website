@@ -172,8 +172,8 @@ color: #fff;
 
 .order-button {
   width: 200px;
-  background-color: #c0c0c0; /* Green background */
-  border: none; /* No border */
+  background-color: transparent; /* Green background */
+  border: #000000; /* No border */
   color: rgb(0, 0, 0); /* White text */
   text-align: center; /* Center text horizontally */
   text-decoration: none; /* No underline */
@@ -187,11 +187,11 @@ color: #fff;
 }
 
 .order-button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #d1f116; /* Darker green on hover */
 }
 
 .order-button:active {
-  background-color: #3e8e41; /* Even darker green on click */
+  background-color: #d1f116; /* Even darker green on click */
 }
 
 

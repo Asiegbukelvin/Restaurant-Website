@@ -1,0 +1,11 @@
+GIT COMMANDS
+git clone <git url>
+git add . 
+git commit -m" Short message of the changes you made "
+git push
+git pull
+
+TERMINAL BASIC COMMANDS
+cd <folder_name>
+ls
+cd ../
