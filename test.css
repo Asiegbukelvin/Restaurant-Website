@@ -1,0 +1,20 @@
+.dropdown-menu {
+  position: absolute;
+  top: 130px;
+  left: 15rem;
+  width: 300px;
+  background: rgb(19, 19, 19);
+  border-radius: 4px;
+  backdrop-filter: blur;
+ 
+  text-align: center; /* Centers text horizontally */
+  margin-bottom: 10px; /* Adds space between each item */
+
+}
+
+.dropdown-menu .links .button-container{
+  padding: 0.7rem;
+  align-items: center;
+  justify-content: center;
+  
+}

@@ -10,9 +10,10 @@ body {
  
 /* nav-styles */
  .navigation-wraper {
-  height: 30px;
+  width: 100%;
+  height: 10px;
   text-decoration: none;
- 
+  max-width: 1200px;
   color: antiquewhite;
   display: flex;
   justify-content: space-between;
@@ -25,8 +26,8 @@ body {
  position: absolute;
  left: 3px;
  bottom: .1px;
- top: px;
-width: 180px;
+ top: 2px;
+width: 200px;
 }
 
 
@@ -54,6 +55,7 @@ text-decoration: none;
 
 .links a:hover {
   color: rgb(255, 102, 0);
+  
 }
 
 
@@ -73,8 +75,6 @@ button:hover {
   background-color: #a35223;
 }
 
-
-
 .button-container button a {
   text-decoration: none;
   color: #fff;
@@ -84,6 +84,7 @@ button:hover {
   width: 100%;
   position: absolute;
   top: 50%;
+  left: 10px;
   transform: translateY(-50%);
   text-align: center;
   color: white;
@@ -96,6 +97,7 @@ button:hover {
   margin-top: 80px;
 }
 
+
 button {
   width: 180px;
   padding: 15px ;
@@ -103,4 +105,97 @@ button {
   background: transparent;
   color: white;
   border: 2px solid rgb(255, 255, 255);
+ }
+
+ .hamburger {
+  display: none;
+  margin-left: 2rem;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+
+}
+
+
+
+.checkbox {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  right: 15.23rem;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+ 
+
+}
+
+
+
+.linkss a {
+  font-weight: 1000px;
+  font-style: normal;
+  color: white;
+  font-weight: bold;
+}
+
+.linkss button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* background-color: var(--color-2); */
+  box-shadow: 2px 4px 5px var(--color-2);
+  color: beige;
+}
+
+.get-started {
+  display: none;
+}
+ @media(max-width:575px) {
+  header {
+      position: relative;
+  }
+
+.image img {
+  width: 150px;
+ 
+}
+
+  .links {
+    display: none;
+    
+  }
+
+.link-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container button {
+display: none;
+}
+
+.get-started {
+  display: block;
+  position: absolute;
+  right: 7rem;
+}
+.get-started button {
+  width: 8rem;
+}
+
+
+.get-started a {
+  text-decoration: none;
+  
+}
+
 }
